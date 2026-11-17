@@ -13,12 +13,13 @@
       "android": {
         "buildType": "apk"
       },
-      "env": {
+            "env": {
         "OPENWHISPR_APP_ENV": "production",
         "OPENWHISPR_ANDROID_PACKAGE": "com.twas10.openwhispr",
         "OPENWHISPR_SCHEME": "twas10-openwhispr",
         "OPENWHISPR_DISPLAY_NAME": "OpenWhispr TWAS10",
-        "SENTRY_DISABLE_AUTO_UPLOAD": "true"
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true",
+        "EAS_BUILD_DISABLE_EXPO_DOCTOR_STEP": "true"
       }
     },
     "production": {}
