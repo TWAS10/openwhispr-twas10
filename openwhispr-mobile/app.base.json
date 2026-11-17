@@ -110,6 +110,7 @@
     },
     "extra": {
       "eas": {
+        "projectId": "3b218df3-b0b7-42b1-b4e1-9654c52ac6a5",
         "build": {
           "experimental": {
             "ios": {
