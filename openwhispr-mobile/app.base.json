@@ -103,7 +103,8 @@
           "userTrackingPermission": "Allow tracking to help us measure which ads lead to OpenWhispr installs and subscriptions. Your voice and text are never used for advertising."
         }
       ],
-      "react-native-appsflyer"
+      "react-native-appsflyer",
+      "./plugins/android-manifest-merge/withAndroidManifestMerge"
     ],
     "experiments": {
       "reactCompiler": true
