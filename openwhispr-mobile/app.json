@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "OpenWhispr",
+    "slug": "openwhispr-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.openwhispr.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.openwhispr.mobile"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "cli": {
+      "appVersionSource": "remote"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8447d067-4553-472a-8783-554c3adc2352"
+      }
+    }
+  }
+}

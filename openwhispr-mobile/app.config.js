@@ -1,4 +1,5 @@
-const fs = require('fs');
+
+Xconst fs = require('fs');
 const path = require('path');
 const baseConfig = require('./app.base.json');
 const { resolveOpenWhisprEnvironment } = require('./config/openwhispr-environments');

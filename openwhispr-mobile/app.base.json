@@ -3,7 +3,6 @@
     "name": "OpenWhispr",
     "slug": "openwhispr-mobile",
     "scheme": "openwhispr",
-    "owner": "gizmo-labs",
     "version": "1.2.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -111,7 +110,6 @@
     },
     "extra": {
       "eas": {
-        "projectId": "8447d067-4553-472a-8783-554c3adc2352",
         "build": {
           "experimental": {
             "ios": {
@@ -140,7 +138,6 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/8447d067-4553-472a-8783-554c3adc2352"
     }
   }
 }
